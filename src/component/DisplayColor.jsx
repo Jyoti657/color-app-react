@@ -1,7 +1,6 @@
 export default function DisplayColor({ color }) {
   return (
-    <>
-       <div className="container">
+    <div className="container">
       {color ? (
         <div className="color-box" style={{ backgroundColor: color }}>
           {color}
@@ -10,6 +9,5 @@ export default function DisplayColor({ color }) {
         <p className="text">No color selected</p>
       )}
     </div>
-    </>
   );
 }
